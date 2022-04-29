@@ -16,7 +16,7 @@ nav {
     top: 110px;
     right: 0%;
 }
-nav li {
+nav ul,li {
     display: inline;
     margin: 0 0 0 15px; /* ou margin-left: 15px; */
 }
