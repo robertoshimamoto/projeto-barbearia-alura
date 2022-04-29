@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
-body {
-   
+body {  
 }
-#banner {
-    width: 100%
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
 }
 .caixa {
     position: relative;
     width: 940px;
-    margin:  0 auto;
+     margin:  0 auto;
 }
 nav {
     position: absolute;
@@ -30,6 +30,9 @@ nav a {
 nav a:hover {
     color: #c78c19;
     text-decoration: underline;
+}
+#banner {
+    width: 100%;
 }
 .principal {
     background-color: #cccccc;
