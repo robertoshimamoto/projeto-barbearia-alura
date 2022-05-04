@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-body {  
-}
 header {
     background: #bbbbbb;
     padding: 20px 0;
@@ -60,7 +58,7 @@ em strong {
     background: #ffffff;
     padding: 20px;
 }
-.tbeneficios {
+ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;

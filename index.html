@@ -8,19 +8,23 @@
     <link rel="stylesheet" href="style.css">   
 </head> 
     <body>   
-            <header>            
-                <div class="caixa">
+                <header>            
+                    <div class="caixa">
                     <h1><img src="logo.png"></h1>
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="produtos.html">Produtos</a></li>
-                            <li><a href="contato.html">Contato</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-            <img id="banner" src="banner.jpg">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="produtos.html">Produtos</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+                        <img id="banner" src="banner.jpg">
+
+            <!--
+              Para criar um layout robusto, com todas as técnicas, e quisermos replicar esse conteúdo no futuro, o ideal é criarmos classes. Vamos seguir esse padrão a partir de agora. Sempre que quisermos marcar um conteúdo visualmente, vamos criar uma classe para ele 
+            -->
         
             <div class="principal">
                 <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
@@ -31,14 +35,13 @@
 
             <div class="beneficios">
                 <h3 class="titulo-centralizado">Benefícios</h3>
-                    <ul class="tbeneficios">
-                        <li class="itens">Atendimento ao Cliente</li>
-                        <li class="itens">Espaço Diferenciado</li>
-                        <li class="itens">Localização</li>
-                        <li class="itens">Profissionais Qualificado</li>
+                    <ul>
+                        <li class="itens">Atendimento ao Cliente
+                        <li class="itens">Espaço Diferenciado
+                        <li class="itens">Localização
+                        <li class="itens">Profissionais Qualificado
                     </ul>
-
-                    <img  class="imagembeneficio" src="beneficios.jpg">
+                        <img  class="imagembeneficio" src="beneficios.jpg">
             </div>
         <footer>
             <img src="logo-branco.png">
