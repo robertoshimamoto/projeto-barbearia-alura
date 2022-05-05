@@ -5,16 +5,14 @@ header {
 }
 .caixa {
     position: relative;
-    /* Toda a vez que a gente mexe em posicionamento e a gente está usando posicionamento absoluto, ele fica absoluto em relação a página, ou seja, o novo ponto inicial dele é qualquer ponto que a gente selecionou no navegador.
-    Quando eu quero que ele tenha um ponto absoluto, mas de dentro de alguma caixa, eu preciso que essa caixa levante, eu preciso que essa caixa também tenha um posicionamento, só que agora um posicionamento relativo, eu quero só que ela levante, position relative.*/
-
+                        /* Toda a vez que a gente mexe em posicionamento e a gente está usando posicionamento absoluto, ele fica absoluto em relação a página, ou seja, o novo ponto inicial dele é qualquer ponto que a gente selecionou no navegador.
+                        Quando eu quero que ele tenha um ponto absoluto, mas de dentro de alguma caixa, eu preciso que essa caixa levante, eu preciso que essa caixa também tenha um posicionamento, só que agora um posicionamento relativo, eu quero só que ela levante, position relative.*/
     width: 940px;
-     /* Essa largura, ela é uma largura padrão que se usa na web, porque a maioria das boas resoluções é de 1.260 pixels de largura, quando você usa 940, você está numa boa margem. */
-
+                        /* Essa largura, ela é uma largura padrão que se usa na web, porque a maioria das boas resoluções é de 1.260 pixels de largura, quando você usa 940, você está numa boa margem. */
      margin:  0 auto;
 }
 nav {
-    position: absolute;
+    position: absolute; /* Com o position: absolute, eu consigo posicionar meu elemento em qualquer lugar da página.*/
     top: 110px;
     right: 0%;
 }
