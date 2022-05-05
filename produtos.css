@@ -46,7 +46,8 @@ nav a:hover {
       font-size: 34px;
 }
 .produtos li {
-    display: inline-block;
+    display: inline-block; /* Elemento que tem o seu display = valor inline-block, pode ter seu tamanho
+                            ajustado, tanto na largura, quanto na altura. */
     text-align: center;
     width: 30%;
     vertical-align: top;    
@@ -55,6 +56,7 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.298);
 }
 .produtos h2 {
     font-size: 30px;
